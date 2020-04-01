@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
-    "subtitle": "This is your homepage",
+    "title": "CodeForFuture",
+    "subtitle": "vFarm : Vertical Farming Solution",
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
     },
