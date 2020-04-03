@@ -1,50 +1,315 @@
-<div class="row">
-    <div class="col-md-7">
-        <span class="hipster img-fluid rounded"></span>
+<ng-container *ngIf="currentPage  == 1 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+
+            <!-- <div [ngSwitch]="isAuthenticated()">
+                <div class="alert alert-success" *ngSwitchCase="true">
+                    <span id="home-logged-message" *ngIf="account" jhiTranslate="home.logged.message"
+                        [translateValues]="{ username: account.login }">You are logged in as user
+                        "{{ account.login }}".</span>
+                </div>
+    
+                <div class="alert alert-warning" *ngSwitchCase="false">
+                    <span jhiTranslate="global.messages.info.authenticated.prefix">If you want to </span>
+                    <a class="alert-link" (click)="login()" jhiTranslate="global.messages.info.authenticated.link">sign
+                        in</a><span jhiTranslate="global.messages.info.authenticated.suffix">, you can try the default
+                        accounts:<br />- Administrator (login="admin" and password="admin") <br />- User (login="user" and
+                        password="user").</span>
+                </div>
+    
+                <div class="alert alert-warning" *ngSwitchCase="false">
+                    <span jhiTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>&nbsp;
+                    <a class="alert-link" routerLink="account/register"
+                        jhiTranslate="global.messages.info.register.link">Register a new account</a>
+                </div>
+            </div> -->
+
+            <p class="font-weight-bold">
+                {{currentPage}} Software And IT companies have acquired large real state for their office and data
+                centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
     </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 2 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster1 img-fluid rounded"></span>
+        </div>
 
-    <div class="col-md-5">
-        <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
 
-        <p class="lead text-primary bg-light font-weight-bold" jhiTranslate="home.subtitle">vFarm : Vertical Farming
-            Solution</p>
-
-        <!-- <div [ngSwitch]="isAuthenticated()">
-            <div class="alert alert-success" *ngSwitchCase="true">
-                <span id="home-logged-message" *ngIf="account" jhiTranslate="home.logged.message"
-                    [translateValues]="{ username: account.login }">You are logged in as user
-                    "{{ account.login }}".</span>
-            </div>
-
-            <div class="alert alert-warning" *ngSwitchCase="false">
-                <span jhiTranslate="global.messages.info.authenticated.prefix">If you want to </span>
-                <a class="alert-link" (click)="login()" jhiTranslate="global.messages.info.authenticated.link">sign
-                    in</a><span jhiTranslate="global.messages.info.authenticated.suffix">, you can try the default
-                    accounts:<br />- Administrator (login="admin" and password="admin") <br />- User (login="user" and
-                    password="user").</span>
-            </div>
-
-            <div class="alert alert-warning" *ngSwitchCase="false">
-                <span jhiTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>&nbsp;
-                <a class="alert-link" routerLink="account/register"
-                    jhiTranslate="global.messages.info.register.link">Register a new account</a>
-            </div>
-        </div> -->
-
-        <p class="font-weight-bold">
-            Software And IT companies have acquired large real state for their office and data centre needs.
-            <br><br>
-            But the per sqft consumption rate of these areas is very low. And a lot of free space is available which can
-            be utilised
-            <br>
-            productively. And by definition free space is all the space that is not directly contributing to employees
-            productivity
-            or companies revenue.
-            <br><br>
-            This solution presents an idea to leverage these free space for
-            <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
-            <br><br>
-            We wish to convert the free spaces inside office buildings to vertical farms.
-        </p>
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                {{currentPage}} Software And IT companies have acquired large real state for their office and data
+                centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
     </div>
-</div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 3 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster2 img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                {{currentPage}} Software And IT companies have acquired large real state for their office and data
+                centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 4 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster3 img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                Software And IT companies have acquired large real state for their office and data centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 5 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster4 img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                Software And IT companies have acquired large real state for their office and data centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 6">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster5 img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                Software And IT companies have acquired large real state for their office and data centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 7 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster7 img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                Software And IT companies have acquired large real state for their office and data centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 8 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster8 img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                Software And IT companies have acquired large real state for their office and data centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="currentPage  == 9 ">
+    <div class="row">
+        <div class="col-md-7">
+            <span class="hipster img-fluid rounded"></span>
+        </div>
+
+        <div class="col-md-5">
+            <h1 class="display-4 text-danger" jhiTranslate="home.title">CodeForFuture</h1>
+
+            <p class="lead text-primary bg-light font-weight-bold">vFarm : Vertical Farming
+                Solution</p>
+            <p class="lead text-primary bg-light font-weight-bold">Slide - {{currentPage}}</p>
+            <p class="font-weight-bold">
+                Software And IT companies have acquired large real state for their office and data centre needs.
+                <br><br>
+                But the per sqft consumption rate of these areas is very low. And a lot of free space is available which
+                can
+                be utilised
+                <br>
+                productively. And by definition free space is all the space that is not directly contributing to
+                employees
+                productivity
+                or companies revenue.
+                <br><br>
+                This solution presents an idea to leverage these free space for
+                <u class="text-primary bg-warning"><b><i>Vertical Farming</i></b></u>
+                <br><br>
+                We wish to convert the free spaces inside office buildings to vertical farms.
+            </p>
+        </div>
+    </div>
+</ng-container>
